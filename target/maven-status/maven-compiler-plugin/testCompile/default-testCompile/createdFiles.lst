@@ -1,0 +1,13 @@
+com\w2a\ApiTestingFrameowork\reports\ExtentListeners.class
+com\w2a\ApiTestingFrameowork\reports\ExtentManager.class
+com\api\testAPIframework\APIs\DeleteCustomerTestAPI.class
+com\w2a\utility\testUtil.class
+com\api\testAPIframework\APIs\CreateCustomerAPI.class
+com\w2a\utility\constant.class
+com\w2a\utility\DataUtil.class
+com\w2a\testingfranwork\setup\BaseClass.class
+com\w2a\testingframeowrk\rough\TestProperties.class
+com\w2a\API_AUTOMATION\AppTest.class
+com\w2a\testingfranwork\testcases\createCustomerTest.class
+com\w2a\utility\ExcelReader.class
+com\w2a\testingfranwork\testcases\DeleteCutsomerTest.class

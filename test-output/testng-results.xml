@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2609" started-at="2021-12-24T23:20:16 IST" finished-at="2021-12-24T23:20:18 IST">
+    <groups>
+    </groups>
+    <test name="Create customer API Test" duration-ms="2609" started-at="2021-12-24T23:20:16 IST" finished-at="2021-12-24T23:20:18 IST">
+      <class name="com.w2a.testingfranwork.testcases.createCustomerTest">
+        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@7e7be63f]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="2503" started-at="2021-12-24T23:20:16 IST" data-provider="data" finished-at="2021-12-24T23:20:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=dggd@gmail.com, name=vxv, validsecretkey=sk_test_51I5xPKBgC9iRmF0qvKUMsytLiI4x0pTke7X2f3B4AnxUjFBmiYHGw8tUqotuqHyjHy7VCJQt8wR54EQ4Ilj7zNmA00CAqx6zJM, description=dgdfhfgj}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatecustomerAPIwithvalidSecretKey -->
+        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@7e7be63f]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="2504" started-at="2021-12-24T23:20:16 IST" data-provider="data" finished-at="2021-12-24T23:20:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=shubham@way2automation.com, name=shubham, validsecretkey=sk_test_51I5xPKBgC9iRmF0qvKUMsytLiI4x0pTke7X2f3B4AnxUjFBmiYHGw8tUqotuqHyjHy7VCJQt8wR54EQ4Ilj7zNmA00CAqx6zJM, description=sfhksdfhksdfh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatecustomerAPIwithvalidSecretKey -->
+        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@7e7be63f]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="2503" started-at="2021-12-24T23:20:16 IST" data-provider="data" finished-at="2021-12-24T23:20:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=dggd@gmail.com, name=mishra, validsecretkey=sk_test_51I5xPKBgC9iRmF0qvKUMsytLiI4x0pTke7X2f3B4AnxUjFBmiYHGw8tUqotuqHyjHy7VCJQt8wR54EQ4Ilj7zNmA00CAqx6zJM, description=tet done}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatecustomerAPIwithvalidSecretKey -->
+      </class> <!-- com.w2a.testingfranwork.testcases.createCustomerTest -->
+    </test> <!-- Create customer API Test -->
+    <test name="Delete customer API Test" duration-ms="2609" started-at="2021-12-24T23:20:16 IST" finished-at="2021-12-24T23:20:18 IST">
+      <class name="com.w2a.testingfranwork.testcases.DeleteCutsomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.w2a.testingfranwork.testcases.DeleteCutsomerTest@434a63ab]" name="setup" is-config="true" duration-ms="355" started-at="2021-12-24T23:20:15 IST" finished-at="2021-12-24T23:20:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="deleteCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.DeleteCutsomerTest@434a63ab]" name="deleteCustomer" duration-ms="2510" started-at="2021-12-24T23:20:16 IST" data-provider="data" finished-at="2021-12-24T23:20:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=cus_KpxnyN1jeEeAjr}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[cus_KpxnyN1jeEeAjr expected:<cus_KpxnyN1jeEeAjr> but was:<id not matching>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: cus_KpxnyN1jeEeAjr expected:<cus_KpxnyN1jeEeAjr> but was:<id not matching>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at com.w2a.testingfranwork.testcases.DeleteCutsomerTest.deleteCustomer(DeleteCutsomerTest.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="FAIL" signature="deleteCustomer(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.DeleteCutsomerTest@434a63ab]" name="deleteCustomer" duration-ms="2508" started-at="2021-12-24T23:20:16 IST" data-provider="data" finished-at="2021-12-24T23:20:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=cus_KoeJP4LD1n0y2z}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[cus_KoeJP4LD1n0y2z expected:<cus_KoeJP4LD1n0y2z> but was:<id not matching>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: cus_KoeJP4LD1n0y2z expected:<cus_KoeJP4LD1n0y2z> but was:<id not matching>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at com.w2a.testingfranwork.testcases.DeleteCutsomerTest.deleteCustomer(DeleteCutsomerTest.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.w2a.testingfranwork.testcases.DeleteCutsomerTest@434a63ab]" name="teardown" is-config="true" duration-ms="0" started-at="2021-12-24T23:20:19 IST" finished-at="2021-12-24T23:20:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.w2a.testingfranwork.testcases.DeleteCutsomerTest -->
+    </test> <!-- Delete customer API Test -->
+  </suite> <!-- Suite -->
+</testng-results>
