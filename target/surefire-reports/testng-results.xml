@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3722" started-at="2021-12-26T11:03:42 IST" finished-at="2021-12-26T11:03:46 IST">
+  <suite name="Suite" duration-ms="2596" started-at="2021-12-28T00:50:44 IST" finished-at="2021-12-28T00:50:46 IST">
     <groups>
     </groups>
-    <test name="Create customer API Test" duration-ms="3722" started-at="2021-12-26T11:03:42 IST" finished-at="2021-12-26T11:03:46 IST">
+    <test name="Create customer API Test" duration-ms="2596" started-at="2021-12-28T00:50:44 IST" finished-at="2021-12-28T00:50:46 IST">
       <class name="com.w2a.testingfranwork.testcases.createCustomerTest">
-        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@524d6d96]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="3612" started-at="2021-12-26T11:03:42 IST" data-provider="data" finished-at="2021-12-26T11:03:46 IST">
+        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@152aa092]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="2451" started-at="2021-12-28T00:50:44 IST" data-provider="data" finished-at="2021-12-28T00:50:46 IST">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreatecustomerAPIwithvalidSecretKey -->
-        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@524d6d96]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="3612" started-at="2021-12-26T11:03:42 IST" data-provider="data" finished-at="2021-12-26T11:03:46 IST">
+        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@152aa092]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="2510" started-at="2021-12-28T00:50:44 IST" data-provider="data" finished-at="2021-12-28T00:50:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{email=dggd@gmail.com, name=vxv, validsecretkey=sk_test_51I5xPKBgC9iRmF0qvKUMsytLiI4x0pTke7X2f3B4AnxUjFBmiYHGw8tUqotuqHyjHy7VCJQt8wR54EQ4Ilj7zNmA00CAqx6zJM, description=dgdfhfgj}]]>
+                <![CDATA[{email=dggd@gmail.com, name=mishra, validsecretkey=sk_test_51I5xPKBgC9iRmF0qvKUMsytLiI4x0pTke7X2f3B4AnxUjFBmiYHGw8tUqotuqHyjHy7VCJQt8wR54EQ4Ilj7zNmA00CAqx6zJM, description=tet done}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreatecustomerAPIwithvalidSecretKey -->
-        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@524d6d96]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="3612" started-at="2021-12-26T11:03:42 IST" data-provider="data" finished-at="2021-12-26T11:03:46 IST">
+        <test-method status="PASS" signature="validateCreatecustomerAPIwithvalidSecretKey(java.util.Hashtable)[pri:0, instance:com.w2a.testingfranwork.testcases.createCustomerTest@152aa092]" name="validateCreatecustomerAPIwithvalidSecretKey" duration-ms="2451" started-at="2021-12-28T00:50:44 IST" data-provider="data" finished-at="2021-12-28T00:50:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{email=dggd@gmail.com, name=mishra, validsecretkey=sk_test_51I5xPKBgC9iRmF0qvKUMsytLiI4x0pTke7X2f3B4AnxUjFBmiYHGw8tUqotuqHyjHy7VCJQt8wR54EQ4Ilj7zNmA00CAqx6zJM, description=tet done}]]>
+                <![CDATA[{email=dggd@gmail.com, name=vxv, validsecretkey=sk_test_51I5xPKBgC9iRmF0qvKUMsytLiI4x0pTke7X2f3B4AnxUjFBmiYHGw8tUqotuqHyjHy7VCJQt8wR54EQ4Ilj7zNmA00CAqx6zJM, description=dgdfhfgj}]]>
               </value>
             </param>
           </params>
