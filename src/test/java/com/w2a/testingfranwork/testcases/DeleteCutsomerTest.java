@@ -14,8 +14,7 @@ import org.json.JSONObject;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.api.testAPIframework.APIs.CreateCustomerAPI;
-import com.api.testAPIframework.APIs.DeleteCustomerTestAPI;
+
 import com.w2a.ApiTestingFrameowork.reports.ExtentListeners;
 import com.w2a.testingfranwork.setup.BaseClass;
 import com.w2a.utility.DataUtil;
@@ -27,7 +26,7 @@ public class DeleteCutsomerTest extends BaseClass{
 	{
 		RestAssured.baseURI="https://api.stripe.com/";
 		RestAssured.basePath="v1";
-		Response response =DeleteCustomerTestAPI.senddeleteRequesttoDeleteCustomer(data);
+		Response response =com.api.testing.stripe.DeleteCustomerTestAPI.senddeleteRequesttoDeleteCustomer(data);
 		
 		response.prettyPrint();
 		System.out.println(response.statusCode());

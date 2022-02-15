@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.w2a.ApiTestingFrameowork.reports.ExtentListeners">
+</listener>
+</listeners>
+  <test  name="Create order API Test">
+    <classes>
+     
+      <class name="com.w2a.testingfranwork.testcases.paypal.createOrderTest"/>
+    </classes>
+  </test>
+  <test  name="get order API Test">
+    <classes>
+     
+      <class name="com.w2a.testingfranwork.testcases.paypal.GetOrderTest"/>
+    </classes>
+  </test>
+ 
+</suite> <!-- Suite -->

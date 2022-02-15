@@ -25,7 +25,7 @@ public void setup() throws IOException
 	config.load(fis);
 	
 	RestAssured.baseURI=config.getProperty("baseURI");
-	RestAssured.basePath=config.getProperty("basePath");
+	//RestAssured.basePath=config.getProperty("basePath");//driving paypal where two basepaths are required hence commenting
 	
 	
 	}

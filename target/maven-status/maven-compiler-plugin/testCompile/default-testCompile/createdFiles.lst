@@ -1,11 +1,17 @@
 com\w2a\ApiTestingFrameowork\reports\ExtentListeners.class
 com\w2a\ApiTestingFrameowork\reports\ExtentManager.class
+com\w2a\utility\MonitoringMail$SMTPAuthenticator.class
 com\api\testAPIframework\APIs\DeleteCustomerTestAPI.class
 com\w2a\utility\testUtil.class
 com\api\testAPIframework\APIs\CreateCustomerAPI.class
 com\w2a\utility\constant.class
 com\w2a\utility\DataUtil.class
+com\w2a\testingframeowrk\rough\Testmail.class
+com\w2a\utility\TestConfig.class
 com\w2a\testingfranwork\setup\BaseClass.class
+com\w2a\testingframeowrk\rough\testIP.class
+com\w2a\utility\MonitoringMail$1.class
+com\w2a\utility\MonitoringMail.class
 com\w2a\testingframeowrk\rough\TestProperties.class
 com\w2a\API_AUTOMATION\AppTest.class
 com\w2a\testingfranwork\testcases\createCustomerTest.class

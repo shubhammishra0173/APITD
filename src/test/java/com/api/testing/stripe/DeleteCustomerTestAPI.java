@@ -1,4 +1,4 @@
-package com.api.testAPIframework.APIs;
+package com.api.testing.stripe;
 
 import static io.restassured.RestAssured.given;
 

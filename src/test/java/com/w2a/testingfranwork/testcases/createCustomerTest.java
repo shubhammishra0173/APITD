@@ -13,7 +13,7 @@ import java.util.Hashtable;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.api.testAPIframework.APIs.CreateCustomerAPI;
+import com.api.testing.stripe.CreateCustomerAPI;
 import com.w2a.ApiTestingFrameowork.reports.ExtentListeners;
 import com.w2a.testingfranwork.setup.BaseClass;
 import com.w2a.utility.DataUtil;

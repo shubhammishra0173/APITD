@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="com.w2a.ApiTestingFrameowork.reports.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Delete customer API Test(failed)" parallel="tests">
+  <test thread-count="5" name="get order API Test(failed)" parallel="tests">
     <classes>
-      <class name="com.w2a.testingfranwork.testcases.DeleteCutsomerTest">
+      <class name="com.w2a.testingfranwork.testcases.paypal.GetOrderTest">
         <methods>
-          <include name="deleteCustomer" invocation-numbers="0 1"/>
+          <include name="getOrder"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.w2a.testingfranwork.testcases.DeleteCutsomerTest -->
+      </class> <!-- com.w2a.testingfranwork.testcases.paypal.GetOrderTest -->
     </classes>
-  </test> <!-- Delete customer API Test(failed) -->
+  </test> <!-- get order API Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
